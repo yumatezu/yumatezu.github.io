@@ -1,1 +1,3 @@
-# yumatezu.github.io
+# Website project for Computer Science
+
+Nothing more...
