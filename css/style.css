@@ -1,0 +1,115 @@
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.navbar-toggle:hover {
+    background-color: #ddd;
+}
+.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+
+@media (max-width: 892px) and (min-width: 100px)
+.navbar-brand, .navbar-toggle {
+    display: inline-block;
+    float: none;
+}
+@media (max-width: 892px) and (min-width: 100px)
+.navbar-toggle {
+    margin-left: 10px;
+}
+.navbar-toggle {
+    margin-right: 0;
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+element.style {
+    display: block;
+}
+.navbar-collapse.collapse, .spoof_img, .spoof_link, .stickers, .stickers img {
+    display: block;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.navbar-right {
+    margin-right: 5%;
+    float: right!important;
+}
+.collapse, .navbar-collapse, .navbar_right_media {
+    display: none;
+}
+.terr {
+    float: left;
+}
+.navbar-collapse {
+    padding-right: 15px;
+    padding-left: 15px;
+    border-top: 1px solid transparent;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+    -webkit-overflow-scrolling: touch;
+}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from nav.navbar.navbar-default
+.navbar-default {
+    color: #fff;
+    background-color: #14131a;
+    border-color: 0;
+    margin: 0;
+}
+Inherited from body
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+Inherited from html
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+Pseudo ::before element
+.btn-group-vertical>.btn-group:after, .btn-group-vertical>.btn-group:before, .btn-toolbar:after, .btn-toolbar:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .modal-footer:before, .modal-header:after, .modal-header:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before {
+    content: " ";
+    display: table;
+}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+h7 {
+	letter-spacing: 2px
+	float:left
+}
