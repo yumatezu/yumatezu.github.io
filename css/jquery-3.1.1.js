@@ -10,7 +10,7 @@ function passWord() {
 	else {
 		var pass2 = prompt('Password Incorrect','Password');
 		if (!pass2) {
-			window.location.href = ('/bad');
+			window.location.href = ('bad');
 		}
 		else if (pass2.toLowerCase() == "yep") {
 			window.location.href = ('webpage');
