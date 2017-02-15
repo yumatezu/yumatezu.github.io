@@ -5,7 +5,6 @@ function passWord() {
     }
     else if (pass1.toLowerCase() == "yep") {
         window.location.href = ('webpage.html');
-        break;
     } 
     else {
         var pass2 = prompt('Password Incorrect','Password');
@@ -14,7 +13,6 @@ function passWord() {
         }
         else if (pass2.toLowerCase() == "yep") {
             window.location.href = ('webpage.html');
-            break;
         } 
         else {
             var pass3 = prompt('Incorrect, last try','Password');
@@ -23,7 +21,6 @@ function passWord() {
             }
             else if (pass3.toLowerCase() == "yep") {
                 window.location.href = ('webpage.html');
-                break;
             } 
             else {
                 window.location.href = ('bad.html');
