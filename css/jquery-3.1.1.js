@@ -1,5 +1,5 @@
 function passWord() {
-	var pass1 = prompt('Please Enter Your Password',' ');
+	var pass1 = prompt('Please Enter Your Password','');
 	if (!pass1) {
 		window.location.href = ('bad');
 	}
@@ -8,7 +8,7 @@ function passWord() {
 		return;
 	} 
 	else {
-		var pass2 = prompt('Password Incorrect','Password');
+		var pass2 = prompt('Password Incorrect','');
 		if (!pass2) {
 			window.location.href = ('bad');
 		}
@@ -17,7 +17,7 @@ function passWord() {
 			return;
 		} 
 		else {
-			var pass3 = prompt('Incorrect, last try','Password');
+			var pass3 = prompt('Incorrect, last try','');
 			if (!pass3) {
 				window.location.href = ('bad');
 			}
