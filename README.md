@@ -1,3 +1,0 @@
-# Website project for Computer Science
-
-Nothing more...
