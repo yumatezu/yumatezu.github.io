@@ -13,7 +13,7 @@ function passWord() {
 			window.location.href = ('bad');
 		}
 		else if (pass2.toLowerCase() == "yep") {
-			window.location.href = ('webpage');
+			window.location.href = ('home');
 			return;
 		} 
 		else {
@@ -22,7 +22,7 @@ function passWord() {
 				window.location.href = ('bad');
 			}
 			else if (pass3.toLowerCase() == "yep") {
-				window.location.href = ('webpage');
+				window.location.href = ('home');
 				return;
 			} 
 			else {
